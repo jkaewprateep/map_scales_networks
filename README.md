@@ -44,6 +44,17 @@ contr2 = lives
 contr3 = steps - player[0][0] * ( 3 * ( steps % 3 ) - 4 )
 ```
 
+## Files and Directory ##
+
+| File Name | Description  |
+--- | --- |
+|sample.py|sample codes|
+|04.png|Distance attention networks|
+|05.png|Map Scales|
+|path_order.gif|PATH Finding, simple|
+|wizard-of-war.gif|Map Scales, WOW|
+|README.md|readme file|
+
 ## Result ##
 
 
