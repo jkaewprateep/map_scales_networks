@@ -58,3 +58,7 @@ contr3 = steps - player[0][0] * ( 3 * ( steps % 3 ) - 4 )
 #### Map scales ####
 
 ![Map scales](https://github.com/jkaewprateep/map_scales_networks/blob/main/05.png?raw=true "Map scales")
+
+#### Map scales Wizards of Wars ####
+
+![Map scales WOW](https://github.com/jkaewprateep/map_scales_networks/blob/main/wizard-of-war.gif?raw=true "Map scales")
