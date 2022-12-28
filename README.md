@@ -13,6 +13,20 @@ def	read_current_state( string_gamestate ):
 
 ```
 
+```
+def update_DATA( action ):
+    steps = steps + 1
+    map = read_current_state("map")
+    
+    list_ladder = elementListCreate( ladders, 95, bRelativePlayer=True )
+    list_ladder.sort(key=elementDistancePhase)
+```
+
+```
+contrl = ( 1800 - steps ) - gamescores + ( 100 * reward )
+contr2 = lives
+contr3 = steps - player[0][0] * ( 3 * ( steps % 3 ) - 4 )
+```
 
 ## Result ##
 
