@@ -16,6 +16,8 @@ dic_itempriority = { "player" : 0, "monster" : 4, "coin" : 2, "background" : 0, 
 
 ## Load game map into arrayList or varible ##
 
+Simple as in the previous project a map variable can access from many ways including class like variable access.
+
 ```
 def read_current_state( string_gamestate ):
     if string_gamestate in ['score']:
