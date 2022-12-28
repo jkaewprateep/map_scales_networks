@@ -1,7 +1,17 @@
 # map_scales_networks
 For study map scales networks
 
+```
+def	read_current_state( string_gamestate ):
+    if string_gamestate in ['score']:
+        return game_console.getScore()
+    ...
+    
+    elif string_gamestate in ['map']:
+        Map_Game = game_console.newGame.map	# 30x80
+        return Map_Game	
 
+```
 
 
 ## Result ##
