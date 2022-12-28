@@ -77,6 +77,8 @@ contr3 = steps - player[0][0] * ( 3 * ( steps % 3 ) - 4 )
 
 #### Map scales ####
 
+* Not a problem we can replace of x position of the ladder item by it d/2 . 
+
 ![Map scales](https://github.com/jkaewprateep/map_scales_networks/blob/main/05.png?raw=true "Map scales")
 
 #### Map scales Wizards of Wars ####
