@@ -1,7 +1,10 @@
 # map_scales_networks
-For study map scales networks
+For study map scales networks, simple implementation with the input of map data into networks using scales manipulation as grids image or logarithms images simply return something as the map variable of the game MonsterKong.
 
 ## Variables ##
+
+We created a list of actions to retrieve the action name, look up possible actions, and transform other method inputs such as random or play records from different batch scripts easier. Further, they can return priority values and item types that we use for text string return or image return for a user and logical mapping item distance and priorities.
+
 ```
 actions = { "none_1": K_h, "left": K_a, "down": K_s, "right": K_d, 
         "up": K_w, "action": K_SPACE }
