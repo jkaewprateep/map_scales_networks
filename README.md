@@ -30,7 +30,9 @@ def read_current_state( string_gamestate ):
 
 ```
 
-## Sorted order priority and distance for simple PATH finding, can resolved by AI or perfrom sorting by AI ##
+## Priority - Diustance PATH ##
+
+Sorted order priority and distance for simple PATH finding, can be resolved by AI or perform sorting by AI.
 
 ```
 def update_DATA( action ):
@@ -42,6 +44,8 @@ def update_DATA( action ):
 ```
 
 ## Controls functions, objectives ##
+
+We spared 3 variables for functions controls, one is for game scores game play, two is lives or important and three is stimulating functions when the AI tries to balance these variables it creates a new path over your networks and decided the most responsive path that is an idea contr3 can be anything that distributed values within scopes and make networks explored.
 
 ```
 contrl = ( 1800 - steps ) - gamescores + ( 100 * reward )
