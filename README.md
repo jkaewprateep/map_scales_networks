@@ -1,8 +1,10 @@
 # map_scales_networks
 For study map scales networks
 
+## Load game map into arrayList or varible ##
+
 ```
-def	read_current_state( string_gamestate ):
+def read_current_state( string_gamestate ):
     if string_gamestate in ['score']:
         return game_console.getScore()
     ...
@@ -13,6 +15,8 @@ def	read_current_state( string_gamestate ):
 
 ```
 
+## Sorted order priority and distance for simple PATH finding, can resolved by AI or perfrom sorting by AI ##
+
 ```
 def update_DATA( action ):
     steps = steps + 1
@@ -21,6 +25,8 @@ def update_DATA( action ):
     list_ladder = elementListCreate( ladders, 95, bRelativePlayer=True )
     list_ladder.sort(key=elementDistancePhase)
 ```
+
+## Controls functions, objectives ##
 
 ```
 contrl = ( 1800 - steps ) - gamescores + ( 100 * reward )
