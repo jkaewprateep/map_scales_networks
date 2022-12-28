@@ -30,7 +30,7 @@ def read_current_state( string_gamestate ):
 
 ```
 
-## Priority - Diustance PATH ##
+## Priority - Distance PATH ##
 
 Sorted order priority and distance for simple PATH finding, can be resolved by AI or perform sorting by AI.
 
