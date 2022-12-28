@@ -1,6 +1,16 @@
 # map_scales_networks
 For study map scales networks
 
+## Variables ##
+```
+actions = { "none_1": K_h, "left": K_a, "down": K_s, "right": K_d, 
+        "up": K_w, "action": K_SPACE }
+dic_itemtype = { "player" : 90, "monster" : 91, "coin" : 92, "background" : 93, "fireball" : 94, 
+        "ladder" : 95, "wall" : 96, "allies" : 97 }
+dic_itempriority = { "player" : 0, "monster" : 4, "coin" : 2, "background" : 0, "fireball" : 4, 
+        "ladder" : 9, "wall" : -9, "allies" : 50 }
+```
+
 ## Load game map into arrayList or varible ##
 
 ```
